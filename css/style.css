@@ -1,0 +1,31 @@
+#site-header {
+  background-color: lightblue;
+  text-align: center;
+  padding: 20px;
+}
+
+.animal {
+  border: 2px solid black;
+  padding: 15px;
+  text-align: center;
+  background-color: white;
+}
+
+.animal img {
+  border-radius: 10px;
+}
+
+.animal > h2 {
+  color: darkblue;
+}
+
+img + p {
+  font-style: italic;
+  color: gray;
+}
+
+main {
+  display: flex;
+  justify-content: space-around;
+  gap: 20px;
+}
